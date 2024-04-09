@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    flex: 1 0 30%; /* Para que las imágenes ocupen el 30% del contenedor */
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
